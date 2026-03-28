@@ -2,7 +2,7 @@ import axios from "axios";
 import type { MethodologyRequest, MethodologyResponse } from "./types";
 
 const api = axios.create({
-  baseURL: "http://localhost:8006",
+  baseURL: "https://fast-api-deployment-n6as.onrender.com/:8006",
   headers: { "Content-Type": "application/json" },
 });
 
