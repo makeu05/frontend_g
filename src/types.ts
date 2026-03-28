@@ -6,6 +6,10 @@ export type CaseType =
   | "malware"
   | "phishing"
   | "incident_interne"
+  | "cryptojacking"
+  | "apt"
+  | "insider"
+  | "supply_chain"
   | "generic";
 
 export interface Incoherence {
